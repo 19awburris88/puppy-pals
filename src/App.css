@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,3 +27,20 @@
 .read-the-docs {
   color: #888;
 }
+
+p {
+  cursor: pointer; /* Makes it clear that the text is clickable */
+  padding: 12px; /* Adds space inside the element to make it button-like */
+  margin: 8px 0; /* Spaces out the puppy name elements */
+  border-radius: 6px; /* Gives rounded edges like a button */
+  background-color: #007bff; /* Sets a blue background */
+  color: white; /* Makes the text color white for contrast */
+  font-weight: bolderg; /* Enhances readability */
+  transition background: 0.3s ease, transform 0.2s ease; /* Adds smooth effects */
+}
+
+p:hover {
+  background-color: grey; /* Darkens the blue on hover */
+  transform: scale(1.05); /* Slightly enlarges the button when hovered */
+}
+
