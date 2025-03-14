@@ -34,7 +34,7 @@ p {
   margin: 8px 0; /* Spaces out the puppy name elements */
   border-radius: 6px; /* Gives rounded edges like a button */
   background-color: #007bff; /* Sets a blue background */
-  color: white; /* Makes the text color white for contrast */
+  color: pink; /* Makes the text color white for contrast */
   font-weight: bolderg; /* Enhances readability */
   transition background: 0.3s ease, transform 0.2s ease; /* Adds smooth effects */
 }
@@ -44,3 +44,34 @@ p:hover {
   transform: scale(1.05); /* Slightly enlarges the button when hovered */
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: red;
+  color: yellow;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: yellow;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h2 {
+  color: green;
+  margin-top: 15px;
+}
+
+div {
+  margin-top: 10px;
+}
